@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "coursework-2"
+version = "0.1.0"
+description = ""
+authors = ["Анна Елизарова <anna_e1984-26@mail.ru>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.14"
+flake8 = ">=7.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "flake8 (>=7.5.0,<8.0.0)"
+]
