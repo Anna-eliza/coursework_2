@@ -49,3 +49,6 @@ def user_interaction():
                 print(f"{a.callsign} | {a.origin_country} | {a.velocity} м/с | {a.altitude} м")
     else:
         print("Фильтрация не задана.")
+
+if __name__ == "__main__":
+    user_interaction()
